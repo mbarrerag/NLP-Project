@@ -1,0 +1,21 @@
+# Paquetes que usa el notebook. Las versiones exactas las fija colab-constraints.txt,
+# copia del pip-freeze del runtime actual de Colab (github.com/googlecolab/backend-info).
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+openpyxl
+pyarrow
+nltk
+spacy
+umap-learn
+ipykernel
+ipython
+nbclient
+nbformat
+jupyter_client
+# No vienen en Colab: el notebook los instala con pip, así que se usa la última versión.
+gensim
+langid
