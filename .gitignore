@@ -1,0 +1,4 @@
+.DS_Store
+# Clon del repositorio que hace el notebook al ejecutarse (celda 2) y artefactos regenerables.
+notebooks/NLP-Dataset/
+notebooks/output/
