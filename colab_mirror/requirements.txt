@@ -20,3 +20,4 @@ jupyter_client
 # No vienen en Colab: el notebook los instala con pip, así que se usa la última versión.
 gensim
 langid
+wordcloud
