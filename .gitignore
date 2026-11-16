@@ -1,0 +1,9 @@
+.DS_Store
+# Clon del repositorio que hace el notebook al ejecutarse (celda 2) y artefactos regenerables.
+notebooks/NLP-Dataset/
+notebooks/output/
+# Caché de graphify (se regenera; las salidas graph.json y GRAPH_REPORT.md sí se versionan).
+**/graphify-out/cache/
+!graphify/out-full/graphify-out/cache/
+graphify/work_corpus/
+graphify/logs/
