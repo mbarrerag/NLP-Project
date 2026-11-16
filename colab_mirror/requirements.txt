@@ -11,6 +11,7 @@ pyarrow
 nltk
 spacy
 umap-learn
+networkx
 ipykernel
 ipython
 nbclient
