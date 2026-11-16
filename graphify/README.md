@@ -15,21 +15,15 @@ Para comparar resultados de graphify se usa siempre esta copia.
 Tamaño del texto: ≈116 000 tokens. El costo estimado del piloto es de céntimos con Haiku 5.5 y de unos pocos
 dólares con Sonnet 5.5, más el prompt de graphify.
 
-## Cómo correrlo (pendiente: P1 en `docs/decisiones_entrega2.md`)
+## Cómo correrlo
 
-Comandos según el README de graphify (verificar con `graphify --help` antes de correr):
+Resultados del piloto, consumo y decisiones: `docs/decisiones_entrega2.md` (sección 5).
 
-```bash
-uv tool install "graphifyy[anthropic]"
-```
-
-```bash
-cd graphify/corpus && graphify extract . --backend claude
-```
-
-- `--backend claude` usa `ANTHROPIC_API_KEY` y se cobra por token. Hay que confirmar cómo se elige el modelo
-  (Haiku o Sonnet) en este backend.
-- El backend `claude-cli` usa la suscripción y por defecto corre con **Opus**. Se cambia con
-  `GRAPHIFY_CLAUDE_CLI_MODEL`.
-- Antes de correr, poner un límite de gasto en la consola de Anthropic.
-- Se versionan `graph.json` y `GRAPH_REPORT.md`; la caché (`graphify-out/cache/`) está en `.gitignore`.
+- Instalación: `uv tool install "graphifyy[anthropic]"`.
+- Con la suscripción se usa el backend `claude-cli`: `GRAPHIFY_BACKEND=claude-cli
+  GRAPHIFY_CLAUDE_CLI_MODEL=claude-sonnet-5-5 graphify extract <carpeta> --backend claude-cli --token-budget 60000
+  --out <salida>`. Sin `GRAPHIFY_CLAUDE_CLI_MODEL` corre con Opus. Con `--token-budget` grande Sonnet omite
+  archivos: usar 60000.
+- Para el corpus completo: `run_stages.sh` (por lotes, espera el reinicio de la ventana de uso y reanuda con la
+  caché de graphify) y `status.py` (avance). Ver el encabezado de `run_stages.sh`.
+- Se versionan `graph.json` y los reportes; la caché (`graphify-out/cache/`) está en `.gitignore`.
