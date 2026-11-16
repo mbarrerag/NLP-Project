@@ -755,7 +755,7 @@ HORUS_000893,1,0.8325,"Ciencias sociales, educación e investigación"
 HORUS_000895,1,0.8781,"Ciencias sociales, educación e investigación"
 HORUS_000897,4,0.8211,Salud y clínica
 HORUS_000898,1,0.8783,"Ciencias sociales, educación e investigación"
-HORUS_000899,5,0.8186,Biodiversidad y ecología
+HORUS_000899,5,0.8187,Biodiversidad y ecología
 HORUS_000901,1,0.9163,"Ciencias sociales, educación e investigación"
 HORUS_000902,3,0.8142,Química y materiales
 HORUS_000903,1,0.804,"Ciencias sociales, educación e investigación"
@@ -907,7 +907,7 @@ HORUS_001071,3,0.9546,Química y materiales
 HORUS_001072,1,0.8987,"Ciencias sociales, educación e investigación"
 HORUS_001073,2,0.8181,"Modelado, simulación y sistemas"
 HORUS_001074,1,0.8647,"Ciencias sociales, educación e investigación"
-HORUS_001075,3,0.822,Química y materiales
+HORUS_001075,3,0.8219,Química y materiales
 HORUS_001076,4,0.8813,Salud y clínica
 HORUS_001077,4,0.924,Salud y clínica
 HORUS_001078,4,0.9615,Salud y clínica
@@ -1266,7 +1266,7 @@ HORUS_001513,4,0.8317,Salud y clínica
 HORUS_001514,3,0.8096,Química y materiales
 HORUS_001515,2,0.888,"Modelado, simulación y sistemas"
 HORUS_001516,3,0.8031,Química y materiales
-HORUS_001517,3,0.8688,Química y materiales
+HORUS_001517,3,0.8689,Química y materiales
 HORUS_001518,2,0.8824,"Modelado, simulación y sistemas"
 HORUS_001519,2,0.8732,"Modelado, simulación y sistemas"
 HORUS_001520,4,0.9133,Salud y clínica
@@ -1575,7 +1575,7 @@ HORUS_001852,4,0.714,Salud y clínica
 HORUS_001853,4,0.8631,Salud y clínica
 HORUS_001854,4,0.7897,Salud y clínica
 HORUS_001855,4,0.8173,Salud y clínica
-HORUS_001856,4,0.8925,Salud y clínica
+HORUS_001856,4,0.8924,Salud y clínica
 HORUS_001857,5,0.7968,Biodiversidad y ecología
 HORUS_001858,2,0.9704,"Modelado, simulación y sistemas"
 HORUS_001859,4,0.7084,Salud y clínica
@@ -1600,7 +1600,7 @@ HORUS_001880,4,0.8983,Salud y clínica
 HORUS_001882,2,0.8561,"Modelado, simulación y sistemas"
 HORUS_001883,1,0.896,"Ciencias sociales, educación e investigación"
 HORUS_001884,2,0.8938,"Modelado, simulación y sistemas"
-HORUS_001885,2,0.8012,"Modelado, simulación y sistemas"
+HORUS_001885,2,0.8011,"Modelado, simulación y sistemas"
 HORUS_001886,1,0.8133,"Ciencias sociales, educación e investigación"
 HORUS_001887,1,0.8504,"Ciencias sociales, educación e investigación"
 HORUS_001888,5,0.8463,Biodiversidad y ecología
@@ -1633,7 +1633,7 @@ HORUS_001915,2,0.9513,"Modelado, simulación y sistemas"
 HORUS_001916,3,0.7993,Química y materiales
 HORUS_001917,5,0.8101,Biodiversidad y ecología
 HORUS_001918,3,0.8414,Química y materiales
-HORUS_001919,5,0.9287,Biodiversidad y ecología
+HORUS_001919,5,0.9288,Biodiversidad y ecología
 HORUS_001920,2,0.8337,"Modelado, simulación y sistemas"
 HORUS_001921,2,0.8957,"Modelado, simulación y sistemas"
 HORUS_001922,3,0.8657,Química y materiales
@@ -2349,7 +2349,7 @@ HORUS_002780,3,0.8352,Química y materiales
 HORUS_002781,1,0.9308,"Ciencias sociales, educación e investigación"
 HORUS_002782,1,0.8648,"Ciencias sociales, educación e investigación"
 HORUS_002783,2,0.8752,"Modelado, simulación y sistemas"
-HORUS_002785,3,0.8055,Química y materiales
+HORUS_002785,3,0.8054,Química y materiales
 HORUS_002786,5,0.8317,Biodiversidad y ecología
 HORUS_002787,3,0.8737,Química y materiales
 HORUS_002788,3,0.8658,Química y materiales
@@ -4546,7 +4546,7 @@ HORUS_005506,5,0.8156,Biodiversidad y ecología
 HORUS_005508,1,0.8687,"Ciencias sociales, educación e investigación"
 HORUS_005509,5,0.8502,Biodiversidad y ecología
 HORUS_005510,1,0.7948,"Ciencias sociales, educación e investigación"
-HORUS_005512,1,0.8865,"Ciencias sociales, educación e investigación"
+HORUS_005512,1,0.8866,"Ciencias sociales, educación e investigación"
 HORUS_005520,2,0.818,"Modelado, simulación y sistemas"
 HORUS_005521,3,0.8654,Química y materiales
 HORUS_005522,3,0.8095,Química y materiales
@@ -4827,7 +4827,7 @@ HORUS_005878,5,0.7701,Biodiversidad y ecología
 HORUS_005879,3,0.9059,Química y materiales
 HORUS_005880,5,0.9181,Biodiversidad y ecología
 HORUS_005881,1,0.8878,"Ciencias sociales, educación e investigación"
-HORUS_005882,1,0.9162,"Ciencias sociales, educación e investigación"
+HORUS_005882,1,0.9161,"Ciencias sociales, educación e investigación"
 HORUS_005883,2,0.8807,"Modelado, simulación y sistemas"
 HORUS_005884,3,0.8183,Química y materiales
 HORUS_005885,4,0.7829,Salud y clínica
@@ -6690,7 +6690,7 @@ HORUS_008079,1,0.9098,"Ciencias sociales, educación e investigación"
 HORUS_008081,4,0.7138,Salud y clínica
 HORUS_008082,1,0.8479,"Ciencias sociales, educación e investigación"
 HORUS_008083,3,0.773,Química y materiales
-HORUS_008094,1,0.8288,"Ciencias sociales, educación e investigación"
+HORUS_008094,1,0.8289,"Ciencias sociales, educación e investigación"
 HORUS_008095,4,0.9035,Salud y clínica
 HORUS_008096,2,0.9651,"Modelado, simulación y sistemas"
 HORUS_008097,3,0.7957,Química y materiales
@@ -7242,7 +7242,7 @@ HORUS_008810,2,0.7969,"Modelado, simulación y sistemas"
 HORUS_008811,3,0.7972,Química y materiales
 HORUS_008812,5,0.9487,Biodiversidad y ecología
 HORUS_008813,5,0.896,Biodiversidad y ecología
-HORUS_008814,3,0.7863,Química y materiales
+HORUS_008814,3,0.7864,Química y materiales
 HORUS_008816,5,0.8493,Biodiversidad y ecología
 HORUS_008817,5,0.7787,Biodiversidad y ecología
 HORUS_008818,4,0.8652,Salud y clínica
@@ -7527,7 +7527,7 @@ HORUS_009176,1,0.8954,"Ciencias sociales, educación e investigación"
 HORUS_009177,1,0.8605,"Ciencias sociales, educación e investigación"
 HORUS_009179,4,0.8121,Salud y clínica
 HORUS_009180,3,0.8874,Química y materiales
-HORUS_009181,3,0.8932,Química y materiales
+HORUS_009181,3,0.8931,Química y materiales
 HORUS_009182,2,0.841,"Modelado, simulación y sistemas"
 HORUS_009183,2,0.8409,"Modelado, simulación y sistemas"
 HORUS_009184,4,0.809,Salud y clínica
@@ -7537,7 +7537,7 @@ HORUS_009188,4,0.9294,Salud y clínica
 HORUS_009189,3,0.8824,Química y materiales
 HORUS_009190,1,0.9555,"Ciencias sociales, educación e investigación"
 HORUS_009191,5,0.7363,Biodiversidad y ecología
-HORUS_009192,2,0.8599,"Modelado, simulación y sistemas"
+HORUS_009192,2,0.8598,"Modelado, simulación y sistemas"
 HORUS_009193,5,0.839,Biodiversidad y ecología
 HORUS_009194,2,0.8696,"Modelado, simulación y sistemas"
 HORUS_009195,5,0.8732,Biodiversidad y ecología
@@ -7613,7 +7613,7 @@ HORUS_009276,1,0.9194,"Ciencias sociales, educación e investigación"
 HORUS_009278,1,0.8576,"Ciencias sociales, educación e investigación"
 HORUS_009279,4,0.9425,Salud y clínica
 HORUS_009280,1,0.8942,"Ciencias sociales, educación e investigación"
-HORUS_009281,1,0.8594,"Ciencias sociales, educación e investigación"
+HORUS_009281,1,0.8595,"Ciencias sociales, educación e investigación"
 HORUS_009282,1,0.8474,"Ciencias sociales, educación e investigación"
 HORUS_009283,4,0.8876,Salud y clínica
 HORUS_009284,4,0.8623,Salud y clínica
@@ -7708,7 +7708,7 @@ HORUS_009398,3,0.8732,Química y materiales
 HORUS_009399,2,0.8001,"Modelado, simulación y sistemas"
 HORUS_009400,1,0.8746,"Ciencias sociales, educación e investigación"
 HORUS_009401,3,0.8637,Química y materiales
-HORUS_009403,2,0.9339,"Modelado, simulación y sistemas"
+HORUS_009403,2,0.9338,"Modelado, simulación y sistemas"
 HORUS_009404,5,0.968,Biodiversidad y ecología
 HORUS_009405,1,0.847,"Ciencias sociales, educación e investigación"
 HORUS_009406,5,0.9007,Biodiversidad y ecología
@@ -7829,7 +7829,7 @@ HORUS_009612,1,0.9244,"Ciencias sociales, educación e investigación"
 HORUS_009613,1,0.8189,"Ciencias sociales, educación e investigación"
 HORUS_009614,1,0.8528,"Ciencias sociales, educación e investigación"
 HORUS_009615,1,0.9418,"Ciencias sociales, educación e investigación"
-HORUS_009616,2,0.8223,"Modelado, simulación y sistemas"
+HORUS_009616,2,0.8222,"Modelado, simulación y sistemas"
 HORUS_009617,4,0.9316,Salud y clínica
 HORUS_009618,2,0.8008,"Modelado, simulación y sistemas"
 HORUS_009619,2,0.9134,"Modelado, simulación y sistemas"
@@ -8477,7 +8477,7 @@ HORUS_010402,3,0.8756,Química y materiales
 HORUS_010403,4,0.8112,Salud y clínica
 HORUS_010404,1,0.8393,"Ciencias sociales, educación e investigación"
 HORUS_010405,3,0.8405,Química y materiales
-HORUS_010406,3,0.8646,Química y materiales
+HORUS_010406,3,0.8647,Química y materiales
 HORUS_010408,1,0.8675,"Ciencias sociales, educación e investigación"
 HORUS_010413,1,0.8555,"Ciencias sociales, educación e investigación"
 HORUS_010416,1,0.8946,"Ciencias sociales, educación e investigación"
@@ -11054,7 +11054,7 @@ HORUS_013624,3,0.7237,Química y materiales
 HORUS_013626,2,0.8346,"Modelado, simulación y sistemas"
 HORUS_013627,1,0.7985,"Ciencias sociales, educación e investigación"
 HORUS_013631,4,0.8921,Salud y clínica
-HORUS_013632,1,0.8969,"Ciencias sociales, educación e investigación"
+HORUS_013632,1,0.8968,"Ciencias sociales, educación e investigación"
 HORUS_013633,1,0.867,"Ciencias sociales, educación e investigación"
 HORUS_013634,1,0.7983,"Ciencias sociales, educación e investigación"
 HORUS_013635,1,0.8962,"Ciencias sociales, educación e investigación"
@@ -11100,7 +11100,7 @@ HORUS_013674,3,0.8335,Química y materiales
 HORUS_013675,1,0.8409,"Ciencias sociales, educación e investigación"
 HORUS_013676,1,0.9062,"Ciencias sociales, educación e investigación"
 HORUS_013677,1,0.8895,"Ciencias sociales, educación e investigación"
-HORUS_013678,1,0.87,"Ciencias sociales, educación e investigación"
+HORUS_013678,1,0.8701,"Ciencias sociales, educación e investigación"
 HORUS_013679,1,0.8513,"Ciencias sociales, educación e investigación"
 HORUS_013680,1,0.8588,"Ciencias sociales, educación e investigación"
 HORUS_013681,1,0.8398,"Ciencias sociales, educación e investigación"
@@ -13783,7 +13783,7 @@ HORUS_016967,1,0.8378,"Ciencias sociales, educación e investigación"
 HORUS_016968,1,0.7973,"Ciencias sociales, educación e investigación"
 HORUS_016969,1,0.9428,"Ciencias sociales, educación e investigación"
 HORUS_016970,1,0.8438,"Ciencias sociales, educación e investigación"
-HORUS_016971,1,0.9289,"Ciencias sociales, educación e investigación"
+HORUS_016971,1,0.929,"Ciencias sociales, educación e investigación"
 HORUS_016972,1,0.9151,"Ciencias sociales, educación e investigación"
 HORUS_016973,1,0.9407,"Ciencias sociales, educación e investigación"
 HORUS_016974,1,0.8753,"Ciencias sociales, educación e investigación"
@@ -14688,7 +14688,7 @@ HORUS_018188,1,0.8638,"Ciencias sociales, educación e investigación"
 HORUS_018189,2,0.9074,"Modelado, simulación y sistemas"
 HORUS_018192,3,0.8118,Química y materiales
 HORUS_018193,3,0.8597,Química y materiales
-HORUS_018194,2,0.8267,"Modelado, simulación y sistemas"
+HORUS_018194,2,0.8268,"Modelado, simulación y sistemas"
 HORUS_018195,5,0.9396,Biodiversidad y ecología
 HORUS_018196,5,0.7993,Biodiversidad y ecología
 HORUS_018197,3,0.7852,Química y materiales
@@ -15077,7 +15077,7 @@ HORUS_018676,1,0.8145,"Ciencias sociales, educación e investigación"
 HORUS_018677,1,0.8317,"Ciencias sociales, educación e investigación"
 HORUS_018679,1,0.9531,"Ciencias sociales, educación e investigación"
 HORUS_018680,1,0.811,"Ciencias sociales, educación e investigación"
-HORUS_018681,2,0.9549,"Modelado, simulación y sistemas"
+HORUS_018681,2,0.955,"Modelado, simulación y sistemas"
 HORUS_018682,3,0.9546,Química y materiales
 HORUS_018683,1,0.8521,"Ciencias sociales, educación e investigación"
 HORUS_018684,1,0.9145,"Ciencias sociales, educación e investigación"
@@ -15296,7 +15296,7 @@ HORUS_019051,1,0.9531,"Ciencias sociales, educación e investigación"
 HORUS_019052,1,0.951,"Ciencias sociales, educación e investigación"
 HORUS_019054,1,0.8696,"Ciencias sociales, educación e investigación"
 HORUS_019055,2,0.8819,"Modelado, simulación y sistemas"
-HORUS_019056,5,0.9149,Biodiversidad y ecología
+HORUS_019056,5,0.915,Biodiversidad y ecología
 HORUS_019057,2,0.8491,"Modelado, simulación y sistemas"
 HORUS_019058,4,0.8705,Salud y clínica
 HORUS_019059,2,0.8487,"Modelado, simulación y sistemas"
@@ -16579,7 +16579,7 @@ HORUS_020622,1,0.8659,"Ciencias sociales, educación e investigación"
 HORUS_020623,1,0.8549,"Ciencias sociales, educación e investigación"
 HORUS_020624,5,0.8723,Biodiversidad y ecología
 HORUS_020625,1,0.8102,"Ciencias sociales, educación e investigación"
-HORUS_020626,1,0.8456,"Ciencias sociales, educación e investigación"
+HORUS_020626,1,0.8457,"Ciencias sociales, educación e investigación"
 HORUS_020627,1,0.8302,"Ciencias sociales, educación e investigación"
 HORUS_020628,1,0.9093,"Ciencias sociales, educación e investigación"
 HORUS_020629,1,0.8748,"Ciencias sociales, educación e investigación"
@@ -16712,7 +16712,7 @@ HORUS_020787,1,0.8827,"Ciencias sociales, educación e investigación"
 HORUS_020788,1,0.8493,"Ciencias sociales, educación e investigación"
 HORUS_020789,1,0.8431,"Ciencias sociales, educación e investigación"
 HORUS_020790,1,0.821,"Ciencias sociales, educación e investigación"
-HORUS_020791,1,0.7922,"Ciencias sociales, educación e investigación"
+HORUS_020791,1,0.7923,"Ciencias sociales, educación e investigación"
 HORUS_020792,5,0.8785,Biodiversidad y ecología
 HORUS_020793,1,0.8644,"Ciencias sociales, educación e investigación"
 HORUS_020794,1,0.8941,"Ciencias sociales, educación e investigación"
@@ -17518,7 +17518,7 @@ HORUS_021837,2,0.8677,"Modelado, simulación y sistemas"
 HORUS_021838,2,0.7972,"Modelado, simulación y sistemas"
 HORUS_021839,2,0.8328,"Modelado, simulación y sistemas"
 HORUS_021840,2,0.8069,"Modelado, simulación y sistemas"
-HORUS_021841,2,0.8237,"Modelado, simulación y sistemas"
+HORUS_021841,2,0.8238,"Modelado, simulación y sistemas"
 HORUS_021842,2,0.7883,"Modelado, simulación y sistemas"
 HORUS_021843,2,0.8453,"Modelado, simulación y sistemas"
 HORUS_021844,1,0.8582,"Ciencias sociales, educación e investigación"
@@ -17607,7 +17607,7 @@ HORUS_021926,3,0.8873,Química y materiales
 HORUS_021927,2,0.8865,"Modelado, simulación y sistemas"
 HORUS_021928,1,0.8654,"Ciencias sociales, educación e investigación"
 HORUS_021929,1,0.8874,"Ciencias sociales, educación e investigación"
-HORUS_021930,1,0.8829,"Ciencias sociales, educación e investigación"
+HORUS_021930,1,0.883,"Ciencias sociales, educación e investigación"
 HORUS_021931,1,0.8848,"Ciencias sociales, educación e investigación"
 HORUS_021932,2,0.8547,"Modelado, simulación y sistemas"
 HORUS_021933,1,0.8862,"Ciencias sociales, educación e investigación"
@@ -19222,7 +19222,7 @@ HORUS_023862,1,0.9075,"Ciencias sociales, educación e investigación"
 HORUS_023863,1,0.8275,"Ciencias sociales, educación e investigación"
 HORUS_023865,2,0.8796,"Modelado, simulación y sistemas"
 HORUS_023866,1,0.8775,"Ciencias sociales, educación e investigación"
-HORUS_023867,1,0.9481,"Ciencias sociales, educación e investigación"
+HORUS_023867,1,0.9482,"Ciencias sociales, educación e investigación"
 HORUS_023868,3,0.7801,Química y materiales
 HORUS_023869,2,0.9322,"Modelado, simulación y sistemas"
 HORUS_023870,4,0.8906,Salud y clínica
