@@ -7,7 +7,8 @@
 #   DRY_RUN=1 ./run_stages.sh        solo muestra el plan, sin llamar a graphify
 #
 # Para que el portátil no se suspenda mientras corre:
-#   systemd-inhibit --what=sleep:idle ./run_stages.sh
+#   systemd-inhibit --what=sleep:idle ./run_stages.sh   (Linux)
+#   caffeinate -is ./run_stages.sh                      (macOS)
 #
 # Estado en cualquier momento:  python3 status.py status "$SOURCE" "$ROOT" "$OUT"
 set -u
@@ -33,11 +34,15 @@ LIMIT_RE='usage limit|limit reached|hit your limit|rate.?limit|resets? |quota|ov
 mkdir -p "$LOGDIR"
 [ -f "$PROGRESS" ] || echo "hora,iteracion,archivos_en_root,cubiertos,tokens_in,tokens_out,salida,limite,nota" > "$PROGRESS"
 say() { printf '[%s] %s\n' "$(date '+%d/%m %H:%M:%S')" "$*" | tee -a "$LOGDIR/run_stages.log"; }
+# Fechas portables (Linux y macOS): `date -d` no existe en BSD/macOS
+fmt_epoch() { python3 -c 'import sys,time;print(time.strftime(sys.argv[2],time.localtime(int(sys.argv[1]))))' "$1" "${2#+}"; }
+next_at() {                                     # próximo epoch con hora HH:MM (hoy o mañana)
+    python3 -c 'import sys,datetime as d;h,m=map(int,sys.argv[1].split(":"));n=d.datetime.now();t=n.replace(hour=h,minute=m,second=0,microsecond=0);t+=d.timedelta(days=t<=n);print(int(t.timestamp()))' "$1"; }
 
 sleep_until() {                                 # duerme por tramos de 60 s: si el equipo se suspende, al volver revisa la hora real
     local target="$1"
     while [ "$(date +%s)" -lt "$target" ]; do
-        [ -n "${DRY_RUN:-}" ] && { say "(dry-run) esperaría hasta $(date -d "@$target" '+%d/%m %H:%M:%S')"; return; }
+        [ -n "${DRY_RUN:-}" ] && { say "(dry-run) esperaría hasta $(fmt_epoch "$target" '+%d/%m %H:%M:%S')"; return; }
         sleep $(( target - $(date +%s) < 60 ? target - $(date +%s) + 1 : 60 ))
     done
 }
@@ -48,17 +53,16 @@ command -v graphify >/dev/null || { say "graphify no está instalado (uv tool in
 say "Inicio | modelo=$MODEL budget=$BUDGET lote=$BATCH | SOURCE=$SOURCE ROOT=$ROOT OUT=$OUT"
 
 if [ -z "${START_NOW:-}" ]; then
-    target=$(date -d "$FIRST_RESET" +%s)
-    [ "$target" -le "$(date +%s)" ] && target=$(date -d "tomorrow $FIRST_RESET" +%s)
+    target=$(next_at "$FIRST_RESET")
     target=$(( target + MARGIN_SECS ))
-    say "Esperando el primer reinicio de la ventana: $(date -d "@$target" '+%d/%m %H:%M')"
+    say "Esperando el primer reinicio de la ventana: $(fmt_epoch "$target" '+%d/%m %H:%M')"
     sleep_until "$target"
 fi
 window_start=$(date +%s)
 if [ -n "${START_NOW:-}" ]; then                 # la ventana en curso termina en FIRST_RESET, no 5 h después de ahora
-    first=$(date -d "$FIRST_RESET" +%s); [ "$first" -le "$(date +%s)" ] && first=$(date -d "tomorrow $FIRST_RESET" +%s)
+    first=$(next_at "$FIRST_RESET")
     window_start=$(( first - WINDOW_SECS ))
-    say "Empiezo ya: la ventana actual termina a las $(date -d "@$first" '+%d/%m %H:%M')."
+    say "Empiezo ya: la ventana actual termina a las $(fmt_epoch "$first" '+%d/%m %H:%M')."
 fi
 waits=0; idle=0; iteration=0; attempt=0; last_covered=-1; retry=""
 
@@ -95,7 +99,7 @@ while true; do
         target=$(python3 "$HERE/status.py" reset "$(grep -iE 'resets?' "$log" | tail -1)")
         [ -z "$target" ] && target=$(( window_start + WINDOW_SECS + MARGIN_SECS ))
         [ "$target" -le "$(date +%s)" ] && target=$(( $(date +%s) + PROBE_SECS ))
-        say "Límite de uso. Reintento a las $(date -d "@$target" '+%d/%m %H:%M')."
+        say "Límite de uso. Reintento a las $(fmt_epoch "$target" '+%d/%m %H:%M')."
         sleep_until "$target"
         window_start=$(date +%s)
         retry=1
