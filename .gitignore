@@ -4,6 +4,6 @@ notebooks/NLP-Dataset/
 notebooks/output/
 # Caché de graphify (se regenera; las salidas graph.json y GRAPH_REPORT.md sí se versionan).
 **/graphify-out/cache/
-graphify/corpus_full/
+!graphify/out-full/graphify-out/cache/
 graphify/work_corpus/
 graphify/logs/

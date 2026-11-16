@@ -27,3 +27,24 @@ Resultados del piloto, consumo y decisiones: `docs/decisiones_entrega2.md` (secc
 - Para el corpus completo: `run_stages.sh` (por lotes, espera el reinicio de la ventana de uso y reanuda con la
   caché de graphify) y `status.py` (avance). Ver el encabezado de `run_stages.sh`.
 - Se versionan `graph.json` y los reportes; la caché (`graphify-out/cache/`) está en `.gitignore`.
+
+## Continuar la extracción del corpus completo desde otra cuenta
+
+`corpus_full/` (20 051 `.md`) y `out-full/graphify-out/` (`graph.json`, `manifest.json` y la caché por archivo) llevan
+el avance de la corrida con Sonnet 5.5 y `--token-budget 60000`. Los primeros 6 000 archivos (orden de nombre) ya
+están procesados; la caché evita pagarlos de nuevo. El avance exacto está en `progress.csv`.
+
+1. Tener instalado y con sesión iniciada `claude` (la suscripción de quien corre) y `uv tool install "graphifyy[anthropic]"`.
+2. Reconstruir la carpeta de trabajo con los mismos 6 000 archivos y comprobar el estado:
+   ```bash
+   cd graphify
+   python3 status.py add corpus_full work_corpus 6000
+   python3 status.py status corpus_full work_corpus out-full
+   ```
+3. Correr, con la hora a la que se reinicia su ventana de uso (o `START_NOW=1` para empezar de inmediato):
+   ```bash
+   systemd-inhibit --what=sleep:handle-lid-switch ./run_stages.sh
+   ```
+4. Al terminar, versionar `out-full/graphify-out/` y `progress.csv`.
+
+Solo una persona a la vez debe correr sobre `out-full/`: `graph.json` y `manifest.json` no se pueden fusionar a mano.
