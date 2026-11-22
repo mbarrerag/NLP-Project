@@ -29,7 +29,8 @@ MAX_IDLE="${MAX_IDLE:-3}"                      # iteraciones seguidas sin avance
 LOGDIR="${LOGDIR:-$HERE/logs}"
 PROGRESS="${PROGRESS:-$HERE/progress.csv}"
 NEUTRAL_DIR="${NEUTRAL_DIR:-$(mktemp -d)}"     # cwd de graphify: así `claude -p` no lee el CLAUDE.md/AGENTS.md del proyecto
-LIMIT_RE='usage limit|limit reached|hit your limit|rate.?limit|resets? |quota|overloaded|is_error.?.? *true'
+# unrecognized_model / all semantic chunks failed: así reporta claude -p el límite de uso agotado (21/11: 17 chunks seguidos con exit 1)
+LIMIT_RE='usage limit|limit reached|hit your limit|rate.?limit|resets? |quota|overloaded|is_error.?.? *true|unrecognized_model|all semantic chunks failed'
 
 mkdir -p "$LOGDIR"
 [ -f "$PROGRESS" ] || echo "hora,iteracion,archivos_en_root,cubiertos,tokens_in,tokens_out,salida,limite,nota" > "$PROGRESS"

@@ -71,8 +71,26 @@
       "input_tokens": 4157677,
       "output_tokens": 678132,
       "files": 13000
+    },
+    {
+      "date": "2026-11-21T23:49:24.554099+00:00",
+      "input_tokens": 141608,
+      "output_tokens": 28355,
+      "files": 14000
+    },
+    {
+      "date": "2026-11-22T03:31:52.517187+00:00",
+      "input_tokens": 5082813,
+      "output_tokens": 705246,
+      "files": 16000
+    },
+    {
+      "date": "2026-11-22T03:55:57.146561+00:00",
+      "input_tokens": 293493,
+      "output_tokens": 38955,
+      "files": 16000
     }
   ],
-  "total_input_tokens": 20593755,
-  "total_output_tokens": 2835497
+  "total_input_tokens": 26111669,
+  "total_output_tokens": 3608053
 }
