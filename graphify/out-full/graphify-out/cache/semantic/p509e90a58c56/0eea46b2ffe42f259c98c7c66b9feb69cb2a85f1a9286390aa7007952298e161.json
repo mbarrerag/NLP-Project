@@ -1,0 +1,1 @@
+{"nodes": [{"id": "horus_020186", "label": "Miniature Fourier Lightfield Microscope", "file_type": "paper", "source_file": "HORUS_020186.md"}], "edges": [{"source": "horus_020186", "target": "horus_020187", "relation": "conceptually_related_to", "confidence": "INFERRED", "confidence_score": 0.6, "source_file": "HORUS_020186.md", "weight": 0.6}], "hyperedges": []}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "horus_020424", "label": "Ultrasound-assisted pectin extraction from mango wastes", "file_type": "paper", "source_file": "HORUS_020424.md"}], "edges": [{"source": "horus_020424", "target": "horus_020420_pectin", "relation": "references", "confidence": "INFERRED", "confidence_score": 0.9, "source_file": "HORUS_020424.md", "weight": 1}], "hyperedges": []}

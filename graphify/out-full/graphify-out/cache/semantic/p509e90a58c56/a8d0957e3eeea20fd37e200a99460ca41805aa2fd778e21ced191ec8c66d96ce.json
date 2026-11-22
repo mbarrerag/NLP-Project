@@ -1,0 +1,1 @@
+{"nodes": [{"id": "horus_020289", "label": "SOAT insurance sufficiency and accident forecasting", "file_type": "paper", "source_file": "HORUS_020289.md"}], "edges": [{"source": "horus_020289", "target": "horus_020283", "relation": "conceptually_related_to", "confidence": "INFERRED", "confidence_score": 0.4, "source_file": "HORUS_020289.md", "weight": 1}], "hyperedges": []}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "horus_020381", "label": "Bello: artistic counter-mapping practices", "file_type": "paper", "source_file": "HORUS_020381.md"}], "edges": [{"source": "horus_020381", "target": "horus_020368", "relation": "conceptually_related_to", "confidence": "INFERRED", "confidence_score": 0.6, "source_file": "HORUS_020381.md", "weight": 1}], "hyperedges": []}

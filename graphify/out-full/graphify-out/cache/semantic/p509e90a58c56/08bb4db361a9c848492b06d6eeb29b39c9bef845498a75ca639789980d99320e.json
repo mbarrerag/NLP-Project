@@ -1,0 +1,1 @@
+{"nodes": [{"id": "horus_020786", "label": "International Treaty on Plant Genetic Resources (TIRFAA) in Colombia", "file_type": "paper", "source_file": "HORUS_020786.md"}], "edges": [{"source": "horus_020786", "target": "horus_020775", "relation": "conceptually_related_to", "confidence": "INFERRED", "confidence_score": 0.5, "source_file": "HORUS_020786.md"}], "hyperedges": []}

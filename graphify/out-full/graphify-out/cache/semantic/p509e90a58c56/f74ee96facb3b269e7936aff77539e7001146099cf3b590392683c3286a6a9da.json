@@ -1,0 +1,1 @@
+{"nodes": [{"id": "horus_020238", "label": "Gas exchange and chlorophyll fluorescence in spearmint", "file_type": "paper", "source_file": "HORUS_020238.md"}], "edges": [{"source": "horus_020238", "target": "horus_020251", "relation": "semantically_similar_to", "confidence": "INFERRED", "confidence_score": 0.75, "source_file": "HORUS_020238.md", "weight": 0.75}], "hyperedges": []}

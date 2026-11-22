@@ -1,0 +1,1 @@
+{"nodes": [{"id": "horus_020149", "label": "Modelling composite section beams with SAP2000", "file_type": "paper", "source_file": "HORUS_020149.md"}], "edges": [{"source": "horus_020149", "target": "horus_020159", "relation": "semantically_similar_to", "confidence": "INFERRED", "confidence_score": 0.6, "source_file": "HORUS_020149.md", "weight": 0.6}], "hyperedges": []}

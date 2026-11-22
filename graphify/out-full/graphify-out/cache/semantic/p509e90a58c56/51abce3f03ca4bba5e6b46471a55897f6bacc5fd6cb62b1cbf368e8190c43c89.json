@@ -1,0 +1,1 @@
+{"nodes": [{"id": "horus_020756", "label": "Church of Santa Clara de Santaf\u00e9: symbolic power and rhetoric", "file_type": "paper", "source_file": "HORUS_020756.md"}], "edges": [{"source": "horus_020756", "target": "horus_020741", "relation": "conceptually_related_to", "confidence": "AMBIGUOUS", "confidence_score": 0.3, "source_file": "HORUS_020756.md"}], "hyperedges": []}

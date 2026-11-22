@@ -1,0 +1,1 @@
+{"nodes": [{"id": "horus_020240", "label": "Gum arabic and homogenization in strawberry suspensions", "file_type": "paper", "source_file": "HORUS_020240.md"}], "edges": [{"source": "horus_020240", "target": "horus_020241", "relation": "semantically_similar_to", "confidence": "INFERRED", "confidence_score": 0.8, "source_file": "HORUS_020240.md", "weight": 0.8}], "hyperedges": []}

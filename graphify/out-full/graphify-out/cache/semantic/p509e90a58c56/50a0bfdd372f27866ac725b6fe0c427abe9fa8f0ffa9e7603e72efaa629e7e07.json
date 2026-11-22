@@ -1,0 +1,1 @@
+{"nodes": [{"id": "horus_020761", "label": "Conservation and rehabilitation of Pasaje Hern\u00e1ndez urban complex", "file_type": "paper", "source_file": "HORUS_020761.md"}], "edges": [{"source": "horus_020761", "target": "horus_020727", "relation": "conceptually_related_to", "confidence": "INFERRED", "confidence_score": 0.6, "source_file": "HORUS_020761.md"}], "hyperedges": []}

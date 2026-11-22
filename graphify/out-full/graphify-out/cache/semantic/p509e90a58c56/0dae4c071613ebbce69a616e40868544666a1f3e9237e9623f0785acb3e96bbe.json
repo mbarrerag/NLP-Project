@@ -1,0 +1,1 @@
+{"nodes": [{"id": "horus_020630", "label": "Perceived changes in Self after psychodynamic-relational psychotherapy", "file_type": "paper", "source_file": "HORUS_020630.md"}], "edges": [{"source": "horus_020630", "target": "horus_020751", "relation": "conceptually_related_to", "confidence": "INFERRED", "confidence_score": 0.35, "source_file": "HORUS_020630.md"}], "hyperedges": []}

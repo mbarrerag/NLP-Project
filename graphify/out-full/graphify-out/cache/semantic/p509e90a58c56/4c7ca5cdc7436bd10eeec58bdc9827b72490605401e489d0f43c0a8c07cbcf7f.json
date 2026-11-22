@@ -1,0 +1,1 @@
+{"nodes": [{"id": "horus_020687", "label": "Colombian armed forces in peace missions post-agreement", "file_type": "paper", "source_file": "HORUS_020687.md"}], "edges": [{"source": "horus_020687", "target": "horus_020715", "relation": "conceptually_related_to", "confidence": "INFERRED", "confidence_score": 0.7, "source_file": "HORUS_020687.md"}], "hyperedges": []}

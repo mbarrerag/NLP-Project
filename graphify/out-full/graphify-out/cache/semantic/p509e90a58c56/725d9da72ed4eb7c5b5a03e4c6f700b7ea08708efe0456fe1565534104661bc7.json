@@ -1,0 +1,1 @@
+{"nodes": [{"id": "horus_020224", "label": "Lactation curves of Gyr cattle in Colombian low tropic", "file_type": "paper", "source_file": "HORUS_020224.md"}], "edges": [{"source": "horus_020224", "target": "horus_020249", "relation": "semantically_similar_to", "confidence": "INFERRED", "confidence_score": 0.85, "source_file": "HORUS_020224.md", "weight": 0.85}], "hyperedges": []}

@@ -1,0 +1,1 @@
+{"nodes": [{"id": "horus_020295", "label": "Agricultural modernization and malnutrition in Colombia", "file_type": "paper", "source_file": "HORUS_020295.md"}], "edges": [{"source": "horus_020295", "target": "horus_020299", "relation": "conceptually_related_to", "confidence": "INFERRED", "confidence_score": 0.4, "source_file": "HORUS_020295.md", "weight": 1}], "hyperedges": []}

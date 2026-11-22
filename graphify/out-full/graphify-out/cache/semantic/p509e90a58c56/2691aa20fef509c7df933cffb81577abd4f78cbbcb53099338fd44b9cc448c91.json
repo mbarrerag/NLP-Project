@@ -1,0 +1,1 @@
+{"nodes": [{"id": "horus_020632", "label": "Testimony of elderly victims of political violence in moral formation", "file_type": "paper", "source_file": "HORUS_020632.md"}], "edges": [{"source": "horus_020632", "target": "horus_020631", "relation": "conceptually_related_to", "confidence": "INFERRED", "confidence_score": 0.55, "source_file": "HORUS_020632.md"}], "hyperedges": []}

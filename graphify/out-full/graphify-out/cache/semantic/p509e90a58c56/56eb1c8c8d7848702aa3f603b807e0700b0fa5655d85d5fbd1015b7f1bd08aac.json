@@ -1,0 +1,1 @@
+{"nodes": [{"id": "horus_020689", "label": "OWA operators in SERVQUAL and SERVPERF scales", "file_type": "paper", "source_file": "HORUS_020689.md"}], "edges": [{"source": "horus_020689", "target": "horus_020744", "relation": "conceptually_related_to", "confidence": "AMBIGUOUS", "confidence_score": 0.25, "source_file": "HORUS_020689.md"}], "hyperedges": []}

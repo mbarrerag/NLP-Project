@@ -1,0 +1,1 @@
+{"nodes": [{"id": "horus_020740", "label": "Poetics of electric light in Bogot\u00e1 (1886-1930)", "file_type": "paper", "source_file": "HORUS_020740.md"}], "edges": [{"source": "horus_020740", "target": "horus_020718", "relation": "conceptually_related_to", "confidence": "INFERRED", "confidence_score": 0.6, "source_file": "HORUS_020740.md"}], "hyperedges": []}

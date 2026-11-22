@@ -1,0 +1,1 @@
+{"nodes": [{"id": "horus_020434", "label": "Damped forced cubic-quintic Duffing equation", "file_type": "paper", "source_file": "HORUS_020434.md"}], "edges": [{"source": "horus_020434", "target": "horus_020423_jacobi", "relation": "references", "confidence": "INFERRED", "confidence_score": 0.6, "source_file": "HORUS_020434.md", "weight": 1}], "hyperedges": []}

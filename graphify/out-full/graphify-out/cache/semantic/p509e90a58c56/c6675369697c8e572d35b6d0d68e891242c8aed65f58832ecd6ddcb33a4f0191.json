@@ -1,0 +1,1 @@
+{"nodes": [{"id": "horus_020176", "label": "Mercury detection with E-SMS optical fiber", "file_type": "paper", "source_file": "HORUS_020176.md"}], "edges": [{"source": "horus_020176", "target": "horus_020177", "relation": "semantically_similar_to", "confidence": "INFERRED", "confidence_score": 0.8, "source_file": "HORUS_020176.md", "weight": 0.8}], "hyperedges": []}

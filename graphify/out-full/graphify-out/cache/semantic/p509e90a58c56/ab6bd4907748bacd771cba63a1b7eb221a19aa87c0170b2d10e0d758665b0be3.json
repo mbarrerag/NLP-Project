@@ -1,0 +1,1 @@
+{"nodes": [{"id": "horus_020204", "label": "Prebiotic fiber from cacao by-products", "file_type": "paper", "source_file": "HORUS_020204.md"}], "edges": [{"source": "horus_020204", "target": "horus_020206", "relation": "semantically_similar_to", "confidence": "INFERRED", "confidence_score": 0.65, "source_file": "HORUS_020204.md", "weight": 0.65}], "hyperedges": []}

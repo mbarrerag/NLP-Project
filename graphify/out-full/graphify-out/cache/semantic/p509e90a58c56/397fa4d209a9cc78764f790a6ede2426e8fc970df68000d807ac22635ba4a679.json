@@ -1,0 +1,1 @@
+{"nodes": [{"id": "horus_020711", "label": "Drones in mapping the main agroecological structure", "file_type": "paper", "source_file": "HORUS_020711.md"}], "edges": [{"source": "horus_020711", "target": "horus_020775", "relation": "conceptually_related_to", "confidence": "INFERRED", "confidence_score": 0.55, "source_file": "HORUS_020711.md"}], "hyperedges": []}
